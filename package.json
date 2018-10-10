@@ -1,15 +1,15 @@
 {
-  "name": "koa-decorator",
+  "name": "koa-app",
   "version": "0.0.1",
-  "description": "为TS开发的Koa应用提供装饰器",
+  "description": "an example-app developed by koa.",
   "main": "app.ts",
   "scripts": {
     "start": "nodemon app"
   },
   "keywords": [
-    "koa装饰器"
+    "koa"
   ],
-  "author": "刘培",
+  "author": "liupei",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.5.3",

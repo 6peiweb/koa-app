@@ -1,2 +1,2 @@
-# koa-decorator
-为TS开发的Koa应用提供装饰器
+# koa-app
+> an example-app developed by koa.

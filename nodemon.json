@@ -14,7 +14,7 @@
   ],
   "env": {
     "NODE_ENV": "development",
-    "PORT": 1997
+    "PORT": 3005
   },
   "ext": "ts"
 }
