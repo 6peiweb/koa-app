@@ -7,14 +7,16 @@ const app = new Koa();
 
 const routes = new Decorator({
 	router: new Router(),
-	controllesr: Controller
+	controllers: Controller
 }).create();
 
 app.use(async (ctx, next) => {
-	console.log(`Process ${ctx.request.method} ${ctx.request.url} ${ctx.request.path}`);
-	let enterTime = + new Date();
+	let enterTime = + new Date(),
+			ms;
 	next();
-	ctx.response.set('X-Response-Time', `${+ new Date() - enterTime}`);
+	ms = `${+ new Date() - enterTime}`;
+	ctx.response.set('X-Response-Time', ms);
+	console.log(`Process ${ctx.method} ${ctx.url} ${ctx.path} ${ms}ms`);
 });
 
 
