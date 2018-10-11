@@ -12,7 +12,10 @@
   "author": "liupei",
   "license": "ISC",
   "dependencies": {
+    "@types/koa-bodyparser": "^5.0.1",
     "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-decorate": "^0.1.5",
     "koa-router": "^7.4.0",
     "nodemon": "^1.18.4",
     "reflect-metadata": "^0.1.10",

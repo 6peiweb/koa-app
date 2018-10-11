@@ -9,7 +9,7 @@
     "ts": "ts-node"
   },
   "watch": [
-    "./src",
+    "controller",
     "app.ts"
   ],
   "env": {

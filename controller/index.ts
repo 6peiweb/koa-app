@@ -1,3 +1,5 @@
 import { CatController } from './cat';
 
-export default { CatController };
+export default {
+  Cat: CatController
+};

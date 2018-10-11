@@ -1,4 +1,4 @@
-import { Path, Get, Post, Param, Query, Ctx, Next } from '../src';
+import { Path, Get, Post, Param, Query, Ctx, Next } from 'koa-decorate';
 
 @Path('/api/cat')
 class CatController {

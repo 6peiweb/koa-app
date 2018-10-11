@@ -1,9 +1,11 @@
 import Koa from 'koa';
 import Router from 'koa-router';
+import Decorator from 'koa-decorate';
+import BodyParser from 'koa-bodyparser';
 import Controller from './controller';
-import Decorator from './src';
 
 const app = new Koa();
+app.use(BodyParser());
 
 const routes = new Decorator({
 	router: new Router(),
