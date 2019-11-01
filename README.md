@@ -11,7 +11,7 @@
 # install module dependencies
 npm install
 
-# serve with hot reload at 127.0.0.1:3005
+# serve with hot reload at 127.0.0.1:1314
 npm start
 
 ```

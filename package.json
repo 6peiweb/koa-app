@@ -1,30 +1,35 @@
 {
   "name": "koa-app",
   "version": "0.0.1",
-  "description": "an example-app developed by koa.",
-  "main": "app.ts",
+  "description": "an example-app developed by koa-decorate.",
+  "main": "./build/app.ts",
   "scripts": {
-    "start": "nodemon app"
+    "build": "tsc",
+    "start": "nodemon ./src/app"
   },
   "keywords": [
-    "koa"
+    "koa",
+    "koa-decorate"
   ],
   "author": "liupei",
   "license": "ISC",
   "dependencies": {
-    "@types/koa-bodyparser": "^5.0.1",
     "koa": "^2.5.3",
     "koa-bodyparser": "^4.2.1",
-    "koa-decorate": "^0.1.5",
+    "koa-decorate": "^0.2.4",
+    "koa-logger": "^3.2.1",
     "koa-router": "^7.4.0",
-    "nodemon": "^1.18.4",
-    "reflect-metadata": "^0.1.10",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.0.3"
+    "koa-static": "^5.0.0"
   },
   "devDependencies": {
     "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-logger": "^3.1.1",
     "@types/koa-router": "^7.0.32",
-    "@types/reflect-metadata": "^0.0.5"
+    "@types/koa-static": "^4.0.1",
+    "@types/reflect-metadata": "^0.0.5",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
   }
 }

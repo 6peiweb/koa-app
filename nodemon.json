@@ -1,20 +1,12 @@
 {
   "restartable": "rs",
-  "ignore": [
-    ".git",
-    "node_modules"
-  ],
   "verbose": true,
   "execMap": {
-    "ts": "ts-node"
+    "ts": "ts-node",
+    "js": "node"
   },
   "watch": [
-    "controller",
-    "app.ts"
+    "src"
   ],
-  "env": {
-    "NODE_ENV": "development",
-    "PORT": 3005
-  },
   "ext": "ts"
 }
